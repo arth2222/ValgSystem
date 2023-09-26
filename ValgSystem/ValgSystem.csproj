@@ -69,11 +69,19 @@
   <ItemGroup>
     <Content Include="img\homermonki.gif" />
     <Content Include="sql.txt" />
+    <Content Include="ViewResult.aspx" />
     <Content Include="Vote.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewResult.aspx.cs">
+      <DependentUpon>ViewResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewResult.aspx.designer.cs">
+      <DependentUpon>ViewResult.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Vote.aspx.cs">
       <DependentUpon>Vote.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

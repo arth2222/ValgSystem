@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValgSystem", "ValgSystem\ValgSystem.csproj", "{6CCC5D51-BABD-4F13-9FF8-2765CA349287}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestaPP", "TestaPP\TestaPP.csproj", "{9C6CEC80-0FB7-451B-AF53-E59962A8DB5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6CCC5D51-BABD-4F13-9FF8-2765CA349287}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CCC5D51-BABD-4F13-9FF8-2765CA349287}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CCC5D51-BABD-4F13-9FF8-2765CA349287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C6CEC80-0FB7-451B-AF53-E59962A8DB5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6CEC80-0FB7-451B-AF53-E59962A8DB5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6CEC80-0FB7-451B-AF53-E59962A8DB5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6CEC80-0FB7-451B-AF53-E59962A8DB5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
