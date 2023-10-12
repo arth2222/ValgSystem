@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="img\homermonki.gif" />
+    <Content Include="prosent.aspx" />
     <Content Include="sql.txt" />
     <Content Include="ViewResult.aspx" />
     <Content Include="Vote.aspx" />
@@ -75,6 +76,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="prosent.aspx.cs">
+      <DependentUpon>prosent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="prosent.aspx.designer.cs">
+      <DependentUpon>prosent.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewResult.aspx.cs">
       <DependentUpon>ViewResult.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
